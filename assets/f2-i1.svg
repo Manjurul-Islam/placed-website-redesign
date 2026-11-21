@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 11">
+<g id="Ellipse 6">
+<circle cx="22" cy="22" r="22" fill="white"/>
+<circle cx="22" cy="22" r="21.5" stroke="#292400" stroke-opacity="0.16"/>
+</g>
+<g id="keyboard">
+<path id="Vector" d="M24.5 17H19.5C16.2125 17 14.5688 17 13.4624 17.908C13.2599 18.0742 13.0742 18.2599 12.908 18.4624C12 19.5688 12 21.2125 12 24.5C12 27.7875 12 29.4312 12.908 30.5376C13.0742 30.7401 13.2599 30.9258 13.4624 31.092C14.5688 32 16.2125 32 19.5 32H24.5C27.7875 32 29.4312 32 30.5376 31.092C30.7401 30.9258 30.9258 30.7401 31.092 30.5376C32 29.4312 32 27.7875 32 24.5C32 21.2125 32 19.5688 31.092 18.4624C30.9258 18.2599 30.7401 18.0742 30.5376 17.908C29.4312 17 27.7875 17 24.5 17Z" stroke-width="1.5" stroke-linecap="round" stroke="#292400"/>
+<path id="Vector_2" d="M22 17V15C22 14.4477 22.4477 14 23 14C23.5523 14 24 13.5523 24 13V12" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#292400"/>
+<path id="Vector_3" d="M17 22H18" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#292400"/>
+<path id="Vector_4" d="M21.5 22H22.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#292400"/>
+<path id="Vector_5" d="M26 22H27" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#292400"/>
+<path id="Vector_6" d="M17 27H27" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#292400"/>
+</g>
+</g>
+</svg>

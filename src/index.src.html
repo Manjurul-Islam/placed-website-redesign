@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Placed — AI Career Platform for Job Seekers</title>
+<meta name="description" content="Find your ideal job faster with AI-driven matching and personalized recommendations based on your skills and preferences.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=IBM+Plex+Serif:ital,wght@1,400&family=Shrikhand&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============ NAVBAR (node 115:113) ============ -->
+<header class="nav" id="nav">
+  <div class="nav__bar">
+    <div class="nav__row">
+      <a href="#top" class="nav__logo" aria-label="Placed home">Placed</a>
+      <nav class="nav__links" aria-label="Primary">
+        <div class="nav__dd">
+          <button class="nav__link nav__ddbtn" aria-expanded="false" aria-controls="ddMenu">AI Tools <img src="assets/ic-chevron.svg" alt="" width="16" height="16"></button>
+          <div class="nav__ddmenu" id="ddMenu" role="menu">
+            <a role="menuitem" href="#auto-apply">{{TAB1}}<span><b>AI Auto Reply</b><small>Effortless Application Process</small></span></a>
+            <a role="menuitem" href="#resume">{{TAB2}}<span><b>Resume Intelligence</b><small>Smarter Resume Building</small></span></a>
+            <a role="menuitem" href="#interview">{{TAB3}}<span><b>Interview Intelligence</b><small>AI-Powered Prep</small></span></a>
+            <a role="menuitem" href="#learn">{{TAB4}}<span><b>Study &amp; Learn</b><small>Learning Made Simple</small></span></a>
+          </div>
+        </div>
+        <a class="nav__link" href="#faq">Pricing</a>
+        <a class="nav__link" href="#blog">Blog</a>
+        <a class="nav__link" href="#footer">Contact</a>
+      </nav>
+      <div class="nav__right">
+        <a href="#" class="btn btn--white btn--sm"><img src="assets/ic-user.svg" alt="" width="24" height="24" class="btn__ic">Login</a>
+        <button class="nav__burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="nav__mobile" id="mobileMenu" inert>
+      <div class="nav__mobile-in">
+        <a href="#auto-apply">AI Tools</a>
+        <a href="#faq">Pricing</a>
+        <a href="#blog">Blog</a>
+        <a href="#footer">Contact</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<!-- ============ HERO (node 115:41) ============ -->
+<section class="hero" id="top">
+  <div class="hero__bg" aria-hidden="true"><img src="assets/hero-bg.jpg" alt="" fetchpriority="high"></div>
+  <div class="hero__in">
+    <div class="hero__top">
+      <div class="hero__copy">
+        <div class="rating" data-hero="1">
+          <span class="rating__item"><img src="assets/trustpilot.svg" alt="" width="16" height="16">Trustpilot</span>
+          <i class="rating__dot"></i>
+          <span class="rating__item"><img src="assets/star.svg" alt="" width="16" height="16">4.8 rating</span>
+          <i class="rating__dot"></i>
+          <span class="rating__item">1280 reviews</span>
+        </div>
+        <h1 class="hero__title" data-hero="2"><span class="line">AI Career Platform</span> <span class="line">for <em class="grad">Job Seekers</em></span></h1>
+        <p class="hero__sub" data-hero="3">Find your ideal job faster with AI-driven matching and personalized recommendations based on your skills and preferences.</p>
+      </div>
+      <div class="hero__ctas" data-hero="4">
+        <a href="#auto-apply" class="btn btn--purple">Start Free Trial</a>
+        <a href="#" class="btn btn--dark" data-video>Watch Video</a>
+      </div>
+    </div>
+    <div class="hero__proof" data-hero="5">
+      <div class="users">
+        <div class="users__faces">
+          <img src="assets/avatar1.png" alt="" width="48" height="48"><img src="assets/avatar2.png" alt="" width="48" height="48"><img src="assets/avatar3.png" alt="" width="48" height="48"><img src="assets/avatar4.png" alt="" width="48" height="48">
+        </div>
+        <p><b>2K+ Users</b><span>have joined recently</span></p>
+      </div>
+      <ul class="perks">
+        <li><img src="assets/ic-clock.svg" alt="" width="24" height="24">Set up in minutes, not days</li>
+        <li><img src="assets/ic-pen.svg" alt="" width="24" height="24">No training required</li>
+        <li><img src="assets/ic-linkedin.svg" alt="" width="24" height="24">Integrates with your LinkedIn Profile</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUSTED (node 115:253) ============ -->
+<section class="trusted wrap">
+  <h2 class="trusted__title" data-reveal>Trusted by 100+ companies</h2>
+  <div class="logos" data-reveal>
+    <div class="logos__track">
+      <div class="logo"><img src="assets/logo-celanese.svg" alt="Celanese" width="138" height="28"></div>
+      <div class="logo"><img src="assets/logo-discover.svg" alt="Discover" width="118" height="22"></div>
+      <div class="logo"><img src="assets/logo-amgen.svg" alt="Amgen" width="84" height="22"></div>
+      <div class="logo"><img src="assets/logo-campbells.svg" alt="Campbell's" width="118" height="32"></div>
+      <div class="logo"><img src="assets/logo-allstate.svg" alt="Allstate" width="100" height="22"></div>
+      <div class="logo"><img src="assets/logo-avery.svg" alt="Avery Dennison" width="98" height="32"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AI TOOLS (nodes 115:732, 115:1250, cards) ============ -->
+<section class="tools wrap" id="tools">
+  <h2 class="h2 center narrow" data-reveal>AI tools to streamline your<br> job search, resume, and interviews.</h2>
+
+  <div class="tools__stick" id="toolsStick">
+  <div class="tabs" role="tablist" aria-label="AI tools">
+    <div class="tabs__in">
+      <a class="tab is-active" role="tab" aria-selected="true" href="#auto-apply" data-target="auto-apply">{{TAB1}}<span><b>AI Auto Reply</b><small>Effortless Application Process</small></span></a>
+      <a class="tab" role="tab" aria-selected="false" href="#resume" data-target="resume">{{TAB2}}<span><b>Resume Intelligence</b><small>Smarter Resume Building</small></span></a>
+      <a class="tab" role="tab" aria-selected="false" href="#interview" data-target="interview">{{TAB3}}<span><b>Interview Intelligence</b><small>AI-Powered Prep</small></span></a>
+      <a class="tab" role="tab" aria-selected="false" href="#learn" data-target="learn">{{TAB4}}<span><b>Study &amp; Learn</b><small>Learning Made Simple</small></span></a>
+      <i class="tabs__ink" aria-hidden="true"></i>
+    </div>
+  </div>
+
+  <div class="features" id="features">
+    <span class="stack-anchor" id="auto-apply" aria-hidden="true"></span>
+    <article class="feature feature--green" data-card="0" aria-labelledby="ft0">
+      <div class="feature__copy" data-reveal>
+        <span class="pill">Effortless Application Process</span>
+        <h3 class="h3" id="ft0">Smart Apply Makes Job Searching Faster, Easier, &amp; More Effective</h3>
+        <p class="muted">Effortless job applications and streamlined job search with intelligent automation tools.</p>
+        <ul class="ticks">
+          <li><img src="assets/f1-i1.svg" alt="" width="44" height="44">Emphasizes speed and action, perfect for job seekers wanting quick results.</li>
+          <li><img src="assets/f1-i2.svg" alt="" width="44" height="44">Highlights automation and ease — letting AI take the wheel.</li>
+          <li><img src="assets/f1-i3.svg" alt="" width="44" height="44">Focuses on the intelligence of the system and relevance of job suggestions.</li>
+        </ul>
+        <a href="#" class="btn btn--dark">Start for Free</a>
+      </div>
+      <div class="feature__media" data-reveal>
+        <div class="fit" data-w="612" data-h="622">
+          <div class="mk jobs" data-anim="jobs" role="img" aria-label="Job applications list being applied to automatically">
+            <img class="mk__bg" src="assets/f1-bg.jpg" alt="">
+            <div class="jobs__card">
+              <div class="jobs__clip">
+                <div class="jobs__list">
+                  <div class="job"><p><b>Marketing Executive</b><span>Job Type: On-site</span></p><span class="tag tag--ok"><img src="assets/check-green.svg" alt="">Applied</span></div>
+                  <div class="job"><p><b>UX Researcher</b><span>Job Type: On-site</span></p><span class="tag tag--ok"><img src="assets/check-green.svg" alt="">Applied</span></div>
+                  <div class="job"><p><b>Senior Product Designer</b><span>Job Type: On-site</span></p><span class="tag tag--go">Apply Now</span></div>
+                  <div class="job"><p><b>Senior Data Scientist</b><span>Job Type: On-site</span></p><span class="tag tag--go">Apply Now</span></div>
+                  <div class="job"><p><b>Jr. Software Engineer</b><span>Job Type: On-site</span></p><span class="tag tag--ok"><img src="assets/check-green.svg" alt="">Applied</span></div>
+                  <div class="job"><p><b>Marketing Manager</b><span>Job Type: On-site</span></p><span class="tag tag--go">Apply Now</span></div>
+                  <div class="job" aria-hidden="true"><p><b>Marketing Executive</b><span>Job Type: On-site</span></p><span class="tag tag--ok"><img src="assets/check-green.svg" alt="">Applied</span></div>
+                  <div class="job" aria-hidden="true"><p><b>UX Researcher</b><span>Job Type: On-site</span></p><span class="tag tag--ok"><img src="assets/check-green.svg" alt="">Applied</span></div>
+                  <div class="job" aria-hidden="true"><p><b>Senior Product Designer</b><span>Job Type: On-site</span></p><span class="tag tag--go">Apply Now</span></div>
+                  <div class="job" aria-hidden="true"><p><b>Senior Data Scientist</b><span>Job Type: On-site</span></p><span class="tag tag--go">Apply Now</span></div>
+                  <div class="job" aria-hidden="true"><p><b>Jr. Software Engineer</b><span>Job Type: On-site</span></p><span class="tag tag--ok"><img src="assets/check-green.svg" alt="">Applied</span></div>
+                  <div class="job" aria-hidden="true"><p><b>Marketing Manager</b><span>Job Type: On-site</span></p><span class="tag tag--go">Apply Now</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="jobs__blur"></div>
+            <div class="jobs__hl">
+              <div class="jobs__hl-txt"><p><b>Senior Product Designer</b><span>Job Type: On-site</span></p></div>
+              <span class="jobs__btn">
+                <span class="tag tag--go tag--glow">Apply Now</span>
+                <span class="tag tag--ok tag--done"><img src="assets/check-green.svg" alt="">Applied</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <span class="stack-anchor" id="resume" aria-hidden="true"></span>
+    <article class="feature feature--yellow" data-card="1" aria-labelledby="ft1">
+      <div class="feature__copy" data-reveal>
+        <span class="pill">Smarter Resume Building</span>
+        <h3 class="h3" id="ft1">Resume Intelligence Helps You Stand Out Effortlessly</h3>
+        <p class="muted">AI-powered resume analysis and suggestions to improve impact and clarity.</p>
+        <ul class="ticks">
+          <li><img src="assets/f2-i1.svg" alt="" width="44" height="44">Real-time feedback on formatting and keywords.</li>
+          <li><img src="assets/f2-i2.svg" alt="" width="44" height="44">AI-generated recommendations tailored to the job description.</li>
+          <li><img src="assets/f2-i3.svg" alt="" width="44" height="44">Boosts your chances of landing interviews with data-driven insights.</li>
+        </ul>
+        <a href="#" class="btn btn--dark">Start for Free</a>
+      </div>
+      <div class="feature__media" data-reveal>
+        <div class="fit" data-w="612" data-h="622">
+          <div class="mk rs" data-anim="resume" role="img" aria-label="Resume score 70 with 12 issues to solve">
+            <img class="mk__bg" src="assets/f2-bg.jpg" alt="">
+            <div class="rs__score"></div>
+            <p class="rs__title">Resume Score</p>
+            <div class="rs__gauge">
+              <img class="rs__track" src="assets/f2-gauge1.svg" alt="">
+              <img class="rs__fill" src="assets/f2-gauge1.svg" alt="">
+              <img class="rs__rest" src="assets/f2-gauge2.svg" alt="">
+            </div>
+            <div class="rs__val"><b data-n="70">70</b><span><i data-n="12">12</i> issues to solve</span></div>
+            <div class="rs__row rs__row--1"></div>
+            <span class="rs__tile" style="top:308px"><img src="assets/f2-3d.svg" alt=""></span>
+            <p class="rs__lbl" style="top:322px">Structure &amp; Organization</p>
+            <span class="tag tag--ok rs__chip rs__chip--ok" style="top:314px"><img src="assets/check-green.svg" alt="">All Set</span>
+            <img class="rs__chev" src="assets/f2-chev-down.svg" alt="" style="top:320px">
+            <div class="rs__row rs__row--2"></div>
+            <img class="rs__vline" src="assets/f2-line.svg" alt="">
+            <span class="rs__tile" style="top:388px"><img src="assets/f2-writing.svg" alt=""></span>
+            <p class="rs__lbl" style="top:402px">Writing Quality</p>
+            <span class="tag rs__chip rs__chip--err" style="top:394px"><img src="assets/f2-alert.svg" alt=""><i data-err>3</i>&nbsp;Error</span>
+            <img class="rs__chev" src="assets/f2-chev-up.svg" alt="" style="top:400px">
+            <div class="rs__items">
+              <img class="rs__dash" src="assets/f2-line3.svg" alt="" style="top:468px">
+              <p class="rs__it" style="--i:0;top:452px;left:142px"><img src="assets/f2-dot-red.svg" alt=""><span class="r">Warning:</span> <em>“Improve Word Choice“</em></p>
+              <p class="rs__it" style="--i:1;top:481px;left:141px"><img src="assets/f2-dot-green.svg" alt=""><span class="g">Resolve:</span> <em>“Improve Word Choice“</em></p>
+              <img class="rs__dash" src="assets/f2-line3.svg" alt="" style="top:538px">
+              <p class="rs__it" style="--i:2;top:522px;left:142px"><img src="assets/f2-dot-red.svg" alt=""><span class="r">Warning:</span> <em>“Refine Phrasing“</em></p>
+              <p class="rs__it" style="--i:3;top:551px;left:141px"><img src="assets/f2-dot-green.svg" alt=""><span class="g">Resolve:</span> <em class="dk">“Refine Phrasing“</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <span class="stack-anchor" id="interview" aria-hidden="true"></span>
+    <article class="feature feature--cyan" data-card="2" aria-labelledby="ft2">
+      <div class="feature__copy" data-reveal>
+        <span class="pill">AI-Powered Prep</span>
+        <h3 class="h3" id="ft2">Interview Intelligence Prepares You for Success</h3>
+        <p class="muted">Practice with AI-driven mock interviews and tailored feedback.</p>
+        <ul class="ticks">
+          <li><img src="assets/f3-i1.svg" alt="" width="44" height="44">Generates relevant practice questions based on role.</li>
+          <li><img src="assets/f3-i2.svg" alt="" width="44" height="44">Simulates real-time Q&amp;A sessions with AI interviewer.</li>
+          <li><img src="assets/f3-i3.svg" alt="" width="44" height="44">Provides detailed performance analysis and improvement tips.</li>
+        </ul>
+        <a href="#" class="btn btn--dark">Start for Free</a>
+      </div>
+      <div class="feature__media" data-reveal>
+        <div class="fit" data-w="612" data-h="622">
+          <div class="mk iv" data-anim="interview" role="img" aria-label="AI mock interview call with live transcription">
+            <img class="mk__bg" src="assets/f3-bg.jpg" alt="">
+            <div class="iv__frame"></div>
+            <div class="iv__video"><img src="assets/f3-video.jpg" alt=""></div>
+            <div class="iv__rec"><i></i><span data-timer>30:56</span></div>
+            <div class="iv__call">
+              <span class="iv__av"><img src="assets/f3-avatar.png" alt=""></span>
+              <p><b>Participant 007:</b><span>Connected</span></p>
+              <span class="iv__btn iv__btn--mute"><img src="assets/f3-mute.svg" alt=""></span>
+              <span class="iv__btn iv__btn--end"><img src="assets/f3-callend.svg" alt=""></span>
+            </div>
+            <p class="iv__status">Transcripting<span class="iv__dots"><i>.</i><i>.</i><i>.</i></span></p>
+            <p class="iv__t" style="top:429px"><b>Discussion Leader: </b>Okay, what are your initial thoughts on the product? What features stand out to you? How many of you can produce daily?</p>
+            <p class="iv__t" style="top:499px"><b>Participant 007: </b>Around 100 of item daily.</p>
+            <p class="iv__t" style="top:533px"><b>Discussion Leader: </b>That’s a pretty solid amount.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <span class="stack-anchor" id="learn" aria-hidden="true"></span>
+    <article class="feature feature--pink" data-card="3" aria-labelledby="ft3">
+      <div class="feature__copy" data-reveal>
+        <span class="pill">Learning Made Simple</span>
+        <h3 class="h3" id="ft3">Study &amp; Learn Helps You Grow Professionally</h3>
+        <p class="muted">Make Learning Useful By Turning It Into Clear Notes Use advanced tools to capture key points, summarize materials, and create study-ready content.</p>
+        <ul class="ticks">
+          <li><img src="assets/f4-i1.svg" alt="" width="44" height="44">Start fresh and organize all your ideas in one place.</li>
+          <li><img src="assets/f4-i2.svg" alt="" width="44" height="44">Upload your PDF, audio or paste a YouTube link to get instant study notes.</li>
+          <li><img src="assets/f4-i3.svg" alt="" width="44" height="44">Speak your notes and let the tool transcribe and organize them.</li>
+        </ul>
+        <a href="#" class="btn btn--dark">Start for Free</a>
+      </div>
+      <div class="feature__media" data-reveal>
+        <div class="fit" data-w="612" data-h="622">
+          <div class="mk qz" data-anim="quiz" role="img" aria-label="Study quiz question with answer options">
+            <img class="mk__bg" src="assets/f4-bg.jpg" alt="">
+            <div class="qz__tabs">
+              <i class="qz__pill"></i>
+              <span style="left:21px"><img src="assets/f3-mute.svg" alt="">Summary</span>
+              <span class="is-on" style="left:130px"><img src="assets/f4-mute-active.svg" alt="">Quiz</span>
+              <span style="left:207px"><img src="assets/f3-mute.svg" alt="">Audio Learning</span>
+              <span style="left:336px"><img src="assets/f3-mute.svg" alt="">Flashcards</span>
+            </div>
+            <div class="qz__stack qz__s1"></div>
+            <div class="qz__stack qz__s2"></div>
+            <div class="qz__stack qz__s3"></div>
+            <div class="qz__body">
+              <p class="qz__count"><span>Question:</span> <b>01 / 30</b></p>
+              <div class="qz__bar"><i></i></div>
+              <p class="qz__time">Answer within 30 minutes</p>
+              <p class="qz__q">What is the correct understanding of how personas are created?</p>
+              <ol class="qz__opts">
+                <li class="qz__o" data-o="1" style="top:322px"><span>1.</span>Random people of same age group.</li>
+                <li class="qz__o" data-o="2" style="top:387px"><span>2.</span>They are actual users selected for a specific projects.</li>
+                <li class="qz__o" data-o="3" style="top:452px"><span>3.</span>Young professionals in urban settings.</li>
+                <li class="qz__o" data-o="4" style="top:517px"><span>4.</span>College students navigating their first experiences.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+  </div>
+  <div class="tools__spacer" aria-hidden="true"></div>
+</section>
+
+<!-- ============ STEPS (node 115:1290) ============ -->
+<section class="steps wrap" id="steps">
+  <h2 class="h2 center narrow" data-reveal>Find your ideal opportunity, get started with Placed in just a few steps</h2>
+  <div class="steps__grid">
+    <article class="step" data-reveal>
+      <div class="step__art"><div class="fit" data-w="409" data-h="280">
+        <div class="art art--resume" data-steps-anim="resume">
+          <div class="art__sheet"></div>
+          <img class="art__uc" src="assets/ic-user-circle.svg" alt="">
+          <span class="art__resume">Resume</span>
+          <i class="b" style="left:66px;top:80px;width:32px;height:32px"></i>
+          <i class="b" style="left:106px;top:93px;width:30px;height:6px"></i>
+          <i class="b" style="left:66px;top:124px;width:277px"></i>
+          <i class="b d" style="left:66px;top:144px;width:139px"></i>
+          <i class="b d" style="left:213px;top:144px;width:110px"></i>
+          <i class="b" style="left:66px;top:164px;width:217px"></i>
+          <i class="b" style="left:66px;top:190px;width:32px;height:32px"></i>
+          <i class="b" style="left:106px;top:203px;width:30px;height:6px"></i>
+          <i class="b d" style="left:66px;top:234px;width:139px"></i>
+          <i class="b d" style="left:213px;top:234px;width:130px"></i>
+          <i class="b" style="left:66px;top:254px;width:277px"></i>
+          <i class="b" style="left:66px;top:274px;width:217px"></i>
+          <span class="chip chip--blue" style="left:265px;top:60px"><img src="assets/check-blue.svg" alt="">Application</span>
+          <span class="chip chip--purple" style="left:316px;top:217px"><img src="assets/check-purple.svg" alt="">Apply</span>
+          <span class="chip chip--green" style="left:16px;top:169px"><img src="assets/check-green.svg" alt="">Autofill</span>
+          <img class="art__fade" src="assets/step-fade.png" alt="">
+        </div>
+      </div></div>
+      <div class="step__txt"><h3>Artificial Intelligence</h3><p>Our Job GPT simplifies the application process by automatically completing job forms for you, using the information you've provided.</p></div>
+    </article>
+
+    <article class="step" data-reveal>
+      <div class="step__art"><div class="fit" data-w="409" data-h="280">
+        <div class="art art--orbit" data-steps-anim="orbit">
+          <img class="orbit o1" src="assets/orbit1.svg" alt="">
+          <img class="orbit o2" src="assets/orbit2.svg" alt="">
+          <img class="orbit o3" src="assets/orbit3.svg" alt="">
+          <div class="orb-path"><img class="orb" src="assets/orb-a.svg" alt="" style="left:329px;top:88px;width:84px"></div>
+          <div class="orb-path"><img class="orb" src="assets/orb-b.svg" alt="" style="left:239px;top:204px;width:88px"></div>
+          <div class="orb-path"><img class="orb" src="assets/orb-c.svg" alt="" style="left:41px;top:2px;width:88px"></div>
+          <div class="orb-path"><img class="orb" src="assets/orb-d.svg" alt="" style="left:241px;top:-4px;width:88px"></div>
+          <div class="orb-path"><img class="orb" src="assets/orb-e.svg" alt="" style="left:22px;top:164px;width:92px"></div>
+          <div class="shield"><i class="ripple"></i><i class="ripple r2"></i><img src="assets/shield.svg" alt=""><span>Placed</span></div>
+          <img class="art__fade" src="assets/step-fade.png" alt="">
+        </div>
+      </div></div>
+      <div class="step__txt"><h3>Save Your Time</h3><p>Automate your job applications, saving hours of manual work. Let technology streamline your search, freeing up valuable time.</p></div>
+    </article>
+
+    <article class="step" data-reveal>
+      <div class="step__art"><div class="fit" data-w="409" data-h="280">
+        <div class="art art--algo" data-steps-anim="algo">
+          <div class="stack s1"></div><div class="stack s2"></div><div class="stack s3"></div>
+          <div class="algo">
+            <div class="algo__head"><span class="algo__av">GG</span><p><b>Senior Product Designer</b><span>Google Inc, New York, USA</span></p></div>
+            <ul>
+              <li><i style="background:#ffebf6"><img src="assets/ic-wand.svg" alt=""></i>AI-Powered Search</li>
+              <li><i style="background:#e2f7ff"><img src="assets/ic-dash.svg" alt=""></i>Advanced Automation</li>
+              <li><i style="background:#e8eaff"><img src="assets/ic-account.svg" alt=""></i>Profile Settings</li>
+              <li><i style="background:#e0fff9"><img src="assets/ic-lang.svg" alt=""></i>Natural Language Processing</li>
+            </ul>
+          </div>
+          <img class="art__fade" src="assets/step-fade.png" alt="">
+        </div>
+      </div></div>
+      <div class="step__txt"><h3>Advanced Algorithm</h3><p>Our scripts leverage advanced AI job search algorithms, ensuring your profiles remain safe and never get blocked by platforms.</p></div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ STATS (node 115:1454) ============ -->
+<section class="stats wrap" id="stats">
+  <h2 class="h2 center narrow" data-reveal>Discover jobs faster with our AI-powered automated search platform.</h2>
+  <div class="stats__grid">
+    <p class="stats__lead stats__lead--a" data-reveal>Proven Results That Save Time and Strengthen Your Resume.</p>
+    <div class="stat stat--lime" data-reveal><p class="stat__num"><span data-count="68">68</span><em>%</em></p><p class="stat__lbl">Less time spent searching</p></div>
+    <div class="stat stat--lav" data-reveal><p class="stat__num"><span data-count="80">80</span><em>%</em></p><p class="stat__lbl">Resume improvement success</p></div>
+    <div class="stat stat--mint" data-reveal><p class="stat__num"><span data-count="3">3</span><em>X</em></p><p class="stat__lbl">Higher interview chances</p></div>
+    <div class="stat stat--lav" data-reveal><p class="stat__num"><span data-count="92">92</span><em>%</em></p><p class="stat__lbl">Positive feedback from users</p></div>
+    <p class="stats__lead stats__lead--b" data-reveal>Measurable Results That Significantly Improve Interview Outcomes.</p>
+  </div>
+</section>
+
+<!-- ============ CTA DARK (node 115:143) ============ -->
+<section class="cta" id="cta">
+  <div class="cta__glow" aria-hidden="true"><img src="assets/cta-glow.svg" alt=""></div>
+  <div class="cta__in wrap">
+    <div class="cta__copy" data-reveal>
+      <div class="cta__head">
+        <h2>Learn. Build. Prep.<br>And Land Your Dream Role with Placed Today</h2>
+        <p>Start your journey with Placed for free. No Credit Card Needed.</p>
+      </div>
+      <ol class="timeline" id="timeline">
+        <i class="timeline__fill" aria-hidden="true"></i>
+        <li><h3>Optimized Resume</h3><p>Professionally structured and optimized to pass ATS while clearly highlighting your skills, experience, and impact.</p></li>
+        <li><h3>Smart Note-taking</h3><p>Capture ideas instantly, organize them intelligently, and retrieve insights when you need them most.</p></li>
+        <li><h3>Preparation for Interview</h3><p>Prepare confidently with focused practice, clear strategies, and real interview insights.</p></li>
+      </ol>
+      <a href="#" class="btn btn--white">Sign Up Today</a>
+    </div>
+    <div class="cta__media" data-reveal>
+      <div class="cta__photo"><img src="assets/cta-photo.jpg" alt="Man reviewing his resume at a desk" loading="lazy"></div>
+      <div class="gauge">
+        <p class="gauge__title">Resume Success</p>
+        <div class="gauge__dial">
+          <img class="gauge__l1" src="assets/gauge-l1.svg" alt="">
+          <img class="gauge__l2" src="assets/gauge-l2.svg" alt="">
+        </div>
+        <p class="gauge__val"><b><i data-count="80">80</i>%</b><span>ATS Friendly</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS (nodes 115:252, 115:1477…) ============ -->
+<section class="testi wrap" id="testimonials">
+  <h2 class="h2 center narrow" data-reveal>Users share how automation made their job search easier and faster.</h2>
+  <div class="testi__wrap" id="testiWrap">
+    <div class="testi__grid" id="testiGrid">
+      <figure class="tcard" data-reveal><img class="tcard__logo" src="assets/logo-celanese.svg" alt="Celanese" width="138" height="28"><blockquote>“Start your journey with Placed for free. No Credit Card Needed. Start your journey with Placed for free. No Credit Card Needed.”</blockquote><figcaption><b>Adam Young</b><span>Head of Design</span></figcaption></figure>
+      <figure class="tcard" data-reveal><img class="tcard__logo" src="assets/logo-discover.svg" alt="Discover" width="118" height="22"><blockquote>“Placed AI supercharged my job search! I landed my dream role in weeks, not months. A total game-changer!”</blockquote><figcaption><b>Adam Young</b><span>Head of Design</span></figcaption></figure>
+      <figure class="tcard" data-reveal><img class="tcard__logo" src="assets/logo-amgen.svg" alt="Amgen" width="84" height="22"><blockquote>“I was struggling to get interviews, but Placed's AI resume builder transformed my CV. I'm now getting calls daily!”</blockquote><figcaption><b>Adam Young</b><span>Head of Design</span></figcaption></figure>
+      <figure class="tcard" data-reveal><img class="tcard__logo" src="assets/logo-campbells.svg" alt="Campbell's" width="118" height="32"><blockquote>“Placed AI supercharged my job hunt! It matched me with roles I never found on my own. Seriously impressive.”</blockquote><figcaption><b>Adam Young</b><span>Head of Design</span></figcaption></figure>
+      <figure class="tcard" data-reveal><img class="tcard__logo" src="assets/logo-allstate.svg" alt="Allstate" width="100" height="22"><blockquote>“I was struggling to get interviews, but Placed's resume builder gave me the edge I needed. Landed my dream job in weeks!”</blockquote><figcaption><b>Adam Young</b><span>Head of Design</span></figcaption></figure>
+      <figure class="tcard" data-reveal><img class="tcard__logo" src="assets/logo-avery.svg" alt="Avery Dennison" width="98" height="32"><blockquote>“The AI interview prep was a game-changer. I felt confident and nailed every question. Thank you, Placed!”</blockquote><figcaption><b>Adam Young</b><span>Head of Design</span></figcaption></figure>
+    </div>
+    <div class="testi__fade" aria-hidden="true"></div>
+    <div class="testi__more"><button class="btn btn--dark" id="testiMore" aria-controls="testiGrid" aria-expanded="false">See All Testimonial</button></div>
+  </div>
+</section>
+
+<!-- ============ FAQ (node 115:1985) ============ -->
+<section class="faq wrap" id="faq">
+  <h2 class="h2 center narrow" data-reveal>Users share how automation made their job search easier and faster.</h2>
+  <div class="faq__list">
+    <div class="qa is-open" data-reveal>
+      <button class="qa__q" aria-expanded="true" aria-controls="a1" id="q1"><span class="qa__n">01.</span><span class="qa__t">What is Placed?</span><i class="qa__ic" aria-hidden="true"></i></button>
+      <div class="qa__a" id="a1" role="region" aria-labelledby="q1"><div><p>Our Auto Job Apply feature uses AI to automatically search and apply to relevant job postings based on your profile and preferences. It customizes applications for each position, saves you time, and increases your application volume while maintaining quality.</p></div></div>
+    </div>
+    <!-- Answers 02–05 are not in the Figma file: placeholder copy, replace with final text. -->
+    <div class="qa" data-reveal>
+      <button class="qa__q" aria-expanded="false" aria-controls="a2" id="q2"><span class="qa__n">02.</span><span class="qa__t">Is my data safe on your platform?</span><i class="qa__ic" aria-hidden="true"></i></button>
+      <div class="qa__a" id="a2" role="region" aria-labelledby="q2"><div><p data-placeholder>[Placeholder] Answer not provided in the design file.</p></div></div>
+    </div>
+    <div class="qa" data-reveal>
+      <button class="qa__q" aria-expanded="false" aria-controls="a3" id="q3"><span class="qa__n">03.</span><span class="qa__t">Is the platform suitable for all industries?</span><i class="qa__ic" aria-hidden="true"></i></button>
+      <div class="qa__a" id="a3" role="region" aria-labelledby="q3"><div><p data-placeholder>[Placeholder] Answer not provided in the design file.</p></div></div>
+    </div>
+    <div class="qa" data-reveal>
+      <button class="qa__q" aria-expanded="false" aria-controls="a4" id="q4"><span class="qa__n">04.</span><span class="qa__t">Do I need technical skills to use the platform?</span><i class="qa__ic" aria-hidden="true"></i></button>
+      <div class="qa__a" id="a4" role="region" aria-labelledby="q4"><div><p data-placeholder>[Placeholder] Answer not provided in the design file.</p></div></div>
+    </div>
+    <div class="qa qa--last" data-reveal>
+      <button class="qa__q" aria-expanded="false" aria-controls="a5" id="q5"><span class="qa__n">05.</span><span class="qa__t">What pricing plans do you offer?</span><i class="qa__ic" aria-hidden="true"></i></button>
+      <div class="qa__a" id="a5" role="region" aria-labelledby="q5"><div><p data-placeholder>[Placeholder] Answer not provided in the design file.</p></div></div>
+    </div>
+  </div>
+  <p class="faq__help" data-reveal>Still have more question? Contact our <a href="#footer">help center</a></p>
+</section>
+
+<!-- ============ BLOG (nodes 115:2747, 115:2761, 115:2770) ============ -->
+<section class="blog" id="blog">
+  <div class="blog__in wrap">
+    <div class="blog__intro" data-reveal>
+      <div class="blog__arrows">
+        <button class="arrow" id="blogPrev" aria-label="Previous article"><svg viewBox="0 0 40 40" width="40" height="40"><path d="M23 26L17 20L23 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="arrow" id="blogNext" aria-label="Next article"><svg viewBox="0 0 40 40" width="40" height="40"><path d="M17 26L23 20L17 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+      <h2 class="h2">Explore our guide &amp; others resources</h2>
+      <a href="#" class="btn btn--dark">Read All Blogs</a>
+    </div>
+    <div class="blog__viewport" data-reveal aria-roledescription="carousel" aria-label="Latest articles">
+      <div class="blog__track" id="blogTrack">
+        <a class="post" href="#">
+          <div class="post__img"><img src="assets/blog1.jpg" alt="Man working on a laptop in front of colorful art" loading="lazy" style="height:166%;left:-30.43%;top:-48.87%;width:130.53%"></div>
+          <p class="post__cat" style="color:#ff824c">ONBOARDING</p>
+          <h3 class="post__title">How an AI Notes Generator Helps You Save Time and Productivity</h3>
+          <p class="post__meta">Published on Jan 9, 2023<i></i>10 Min</p>
+        </a>
+        <a class="post" href="#">
+          <div class="post__img"><img src="assets/blog2.jpg" alt="Man in a cap standing in a studio" loading="lazy" style="height:125.58%;left:-57.66%;top:-12.79%;width:220%"></div>
+          <p class="post__cat" style="color:#5d30c8">ADAPTATION</p>
+          <h3 class="post__title">Top Technical Specialist Interview Questions Recruiters Ask</h3>
+          <p class="post__meta">Published on Jan 9, 2023<i></i>15 Min</p>
+        </a>
+        <a class="post" href="#">
+          <div class="post__img"><img src="assets/blog3.jpg" alt="Clipboard with a resume next to a laptop" loading="lazy" class="post__cover"></div>
+          <p class="post__cat" style="color:#ff824c">RESUME</p>
+          <h3 class="post__title">How to Write an ATS-Friendly Resume That Gets You Noticed</h3>
+          <p class="post__meta">Published on Feb 14, 2023<i></i>8 Min</p>
+        </a>
+        <a class="post" href="#">
+          <div class="post__img"><img src="assets/blog4.jpg" alt="Two professionals shaking hands across a desk" loading="lazy" class="post__cover"></div>
+          <p class="post__cat" style="color:#5d30c8">CAREER GROWTH</p>
+          <h3 class="post__title">How to Negotiate Your Job Offer With Confidence</h3>
+          <p class="post__meta">Published on Mar 2, 2023<i></i>12 Min</p>
+        </a>
+        <a class="post" href="#">
+          <div class="post__img"><img src="assets/blog5.jpg" alt="Open notebook with pen and glasses on a desk" loading="lazy" class="post__cover"></div>
+          <p class="post__cat" style="color:#ff824c">STUDY &amp; LEARN</p>
+          <h3 class="post__title">Turn Long Lectures Into Clear Study Notes With AI</h3>
+          <p class="post__meta">Published on Mar 21, 2023<i></i>7 Min</p>
+        </a>
+        <a class="post" href="#">
+          <div class="post__img"><img src="assets/blog6.jpg" alt="Team working together on laptops in a bright office" loading="lazy" class="post__cover"></div>
+          <p class="post__cat" style="color:#5d30c8">JOB SEARCH</p>
+          <h3 class="post__title">Using Auto Apply to Land More Interviews in Less Time</h3>
+          <p class="post__meta">Published on Apr 6, 2023<i></i>9 Min</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER (node 115:2779) ============ -->
+<footer class="footer" id="footer">
+  <div class="footer__glow g1" aria-hidden="true"><img src="assets/foot-glow1.svg" alt=""></div>
+  <div class="footer__glow g2" aria-hidden="true"><img src="assets/foot-glow2.svg" alt=""></div>
+  <div class="footer__in wrap">
+    <div class="footer__top">
+      <div class="footer__brand" data-reveal>
+        <a href="#top" class="footer__logo">Placed</a>
+        <p>Your desired journey start here.</p>
+      </div>
+      <form class="news" id="news" novalidate data-reveal>
+        <label for="newsEmail">Subscribe to our newsletter</label>
+        <div class="news__field">
+          <input id="newsEmail" type="email" placeholder="Enter your email..." autocomplete="email" required>
+          <button class="btn btn--purple btn--sm" type="submit">Submit Email</button>
+        </div>
+        <p class="news__msg" id="newsMsg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+    <div class="footer__cols">
+      <div data-reveal><h4>AI Job Tools</h4><ul><li><a href="#auto-apply">Tailored Auto Apply</a></li><li><a href="#interview">Interview Q&amp;A</a></li><li><a href="#">Job GPT</a></li><li><a href="#resume">Resume GPT</a></li></ul></div>
+      <div data-reveal><h4>Cover Letter</h4><ul><li><a href="#">Cover Letter Examples</a></li><li><a href="#">Cover Letter Builder</a></li><li><a href="#">Product Manager Cover Letter</a></li></ul></div>
+      <div data-reveal><h4>LinkedIn Tools</h4><ul><li><a href="#">Post Generator</a></li><li><a href="#">Bio Generator</a></li><li><a href="#">Recommendation Generator</a></li><li><a href="#">Job Description Generator</a></li></ul></div>
+      <div data-reveal><h4>Help Center</h4><ul><li><a href="#">Feedback</a></li><li><a href="#">Support</a></li><li><a href="#">Feature Request</a></li><li><a href="#blog">Blog</a></li></ul></div>
+    </div>
+    <div class="footer__bottom">
+      <p>© Placed 2025. All rights reserved</p>
+      <div class="socials">
+        <a href="#" aria-label="LinkedIn"><img src="assets/soc-1.png" alt="" width="36" height="36"></a>
+        <a href="#" aria-label="Facebook"><img src="assets/soc-2.png" alt="" width="36" height="36"></a>
+        <a href="#" aria-label="Instagram"><img src="assets/soc-3.png" alt="" width="36" height="36"></a>
+        <a href="#" aria-label="TikTok"><img src="assets/soc-4.png" alt="" width="36" height="36"></a>
+      </div>
+      <p class="legal"><a href="#">Privacy Policy</a><i></i><a href="#">Code Declarations</a><i></i><a href="#">Code of Conduct</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 11">
+<g id="Ellipse 6">
+<circle cx="22" cy="22" r="22" fill="white"/>
+<circle cx="22" cy="22" r="21.5" stroke="#292400" stroke-opacity="0.16"/>
+</g>
+<g id="database-02">
+<path id="Vector" d="M30 15C30 16.6569 26.4183 18 22 18C17.5817 18 14 16.6569 14 15C14 13.3431 17.5817 12 22 12C26.4183 12 30 13.3431 30 15Z" stroke-width="1.5" stroke="#292400"/>
+<path id="Vector_2" d="M30 22C30 23.6569 26.4183 25 22 25C17.5817 25 14 23.6569 14 22" stroke-width="1.5" stroke="#292400"/>
+<path id="Vector_3" d="M30 15V29C30 30.6569 26.4183 32 22 32C17.5817 32 14 30.6569 14 29V15" stroke-width="1.5" stroke="#292400"/>
+<path id="Vector_4" d="M18 18V20" stroke-width="1.5" stroke-linecap="round" stroke="#292400"/>
+<path id="Vector_5" d="M18 25V27" stroke-width="1.5" stroke-linecap="round" stroke="#292400"/>
+</g>
+</g>
+</svg>

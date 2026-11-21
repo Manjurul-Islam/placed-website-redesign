@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 20">
+<g id="Ellipse 8">
+<circle cx="24" cy="24" r="24" fill="white"/>
+<circle cx="24" cy="24" r="23.5" stroke="#020814" stroke-opacity="0.16"/>
+</g>
+<g id="book-02">
+<path id="Vector" d="M27.5 19H20.5M24.499 23H20.499" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#020814"/>
+<path id="Vector_2" d="M32 34H18C16.8954 34 16 33.1046 16 32M16 32C16 30.8954 16.8954 30 18 30H32V18C32 16.1144 32 15.1716 31.4142 14.5858C30.8284 14 29.8856 14 28 14H22C19.1716 14 17.7574 14 16.8787 14.8787C16 15.7574 16 17.1716 16 20V32Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#020814"/>
+<path id="Vector_3" d="M31.5 30C31.5 30 30.5 30.7628 30.5 32C30.5 33.2372 31.5 34 31.5 34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#020814"/>
+</g>
+</g>
+</svg>

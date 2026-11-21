@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 11">
+<g id="Ellipse 6">
+<circle cx="22" cy="22" r="22" fill="white"/>
+<circle cx="22" cy="22" r="21.5" stroke="#290029" stroke-opacity="0.16"/>
+</g>
+<g id="note-01">
+<path id="Vector" d="M26.5 12V15M17.5 12V15M22 12V15" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#290029"/>
+<path id="Vector_2" d="M23 13.5H21C17.7002 13.5 16.0502 13.5 15.0251 14.5251C14 15.5502 14 17.2002 14 20.5V25C14 28.2998 14 29.9497 15.0251 30.9749C16.0502 32 17.7002 32 21 32H23C26.2998 32 27.9497 32 28.9749 30.9749C30 29.9497 30 28.2998 30 25V20.5C30 17.2002 30 15.5502 28.9749 14.5251C27.9497 13.5 26.2998 13.5 23 13.5Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#290029"/>
+<path id="Vector_3" d="M18 25H22M18 21H26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#290029"/>
+</g>
+</g>
+</svg>

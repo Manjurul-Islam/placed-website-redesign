@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 11">
+<g id="Ellipse 6">
+<circle cx="22" cy="22" r="22" fill="white"/>
+<circle cx="22" cy="22" r="21.5" stroke="#063D00" stroke-opacity="0.16"/>
+</g>
+<g id="command">
+<path id="Vector" d="M25 19V25H19V19H25Z" stroke-width="1.5" stroke-linejoin="round" stroke="#042900"/>
+<path id="Vector_2" d="M25 25H28C29.6569 25 31 26.3431 31 28C31 29.6569 29.6569 31 28 31C26.3431 31 25 29.6569 25 28V25Z" stroke-width="1.5" stroke-linejoin="round" stroke="#042900"/>
+<path id="Vector_3" d="M19 25.002H16C14.3432 25.002 13 26.3451 13 28.002C13 29.6588 14.3432 31.002 16 31.002C17.6568 31.002 19 29.6588 19 28.002V25.002Z" stroke-width="1.5" stroke-linejoin="round" stroke="#042900"/>
+<path id="Vector_4" d="M25 19V16C25 14.3432 26.3431 13 28 13C29.6569 13 31 14.3432 31 16C31 17.6568 29.6569 19 28 19H25Z" stroke-width="1.5" stroke-linejoin="round" stroke="#042900"/>
+<path id="Vector_5" d="M19 19V16C19 14.3432 17.6568 13 16 13C14.3432 13 13 14.3432 13 16C13 17.6568 14.3432 19 16 19H19Z" stroke-width="1.5" stroke-linejoin="round" stroke="#042900"/>
+</g>
+</g>
+</svg>

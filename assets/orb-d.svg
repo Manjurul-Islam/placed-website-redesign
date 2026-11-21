@@ -1,0 +1,25 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="88" height="88" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 181">
+<g id="Ellipse 21" filter="url(#filter0_d_0_28)">
+<circle cx="44" cy="44" r="20" fill="#05BCFC"/>
+</g>
+<g id="files-01">
+<path id="Vector" d="M46.0833 49.8333H44.4166C42.0596 49.8333 40.8811 49.8333 40.1489 49.1011C39.4167 48.3688 39.4167 47.1903 39.4167 44.8333V40.6667C39.4167 38.3096 39.4167 37.1311 40.1489 36.3989C40.8811 35.6667 42.0596 35.6667 44.4166 35.6667H45.536C46.2172 35.6667 46.5578 35.6667 46.8641 35.7935C47.1704 35.9204 47.4112 36.1613 47.893 36.643L50.107 38.857C50.5887 39.3387 50.8296 39.5796 50.9565 39.8859C51.0833 40.1922 51.0833 40.5328 51.0833 41.214V44.8333C51.0833 47.1903 51.0833 48.3688 50.3511 49.1011C49.6189 49.8333 48.4403 49.8333 46.0833 49.8333Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path id="Vector_2" d="M46.5 36.0833V36.9167C46.5 38.488 46.5 39.2737 46.9882 39.7618C47.4763 40.25 48.262 40.25 49.8333 40.25H50.6667" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path id="Vector_3" d="M39.4163 38.1667C38.0356 38.1667 36.9163 39.286 36.9163 40.6667V47.3333C36.9163 49.6904 36.9163 50.8689 37.6485 51.6011C38.3807 52.3333 39.5592 52.3333 41.9163 52.3333H46.0832C47.4639 52.3333 48.5832 51.214 48.5832 49.8333" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path id="Vector_4" d="M42.3333 43.1667H45.6667M42.3333 46.5H48.1667" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_28" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="12"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_28"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_28" result="shape"/>
+</filter>
+</defs>
+</svg>

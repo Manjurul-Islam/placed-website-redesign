@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 11">
+<g id="Ellipse 6">
+<circle cx="22" cy="22" r="22" fill="white"/>
+<circle cx="22" cy="22" r="21.5" stroke="#063D00" stroke-opacity="0.16"/>
+</g>
+<g id="flash">
+<path id="Vector" d="M15.2258 21.3294L22.224 12.3465C22.7713 11.644 23.7972 12.0812 23.7972 13.0171V19.9699C23.7972 20.5305 24.1995 20.985 24.6958 20.985H28.0996C28.8729 20.985 29.2851 22.0149 28.7742 22.6706L21.776 31.6535C21.2287 32.356 20.2028 31.9188 20.2028 30.9829V24.0301C20.2028 23.4695 19.8005 23.015 19.3042 23.015H15.9004C15.1271 23.015 14.7149 21.9851 15.2258 21.3294Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#042900"/>
+</g>
+</g>
+</svg>
